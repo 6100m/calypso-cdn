@@ -1,4 +1,5 @@
-console.log("Jquery loaded")
+var script=document.createElement("script");
+console.log("Script is now defined")
 script.setAttribute("type", "text/javascript");
 script.setAttribute("src", "https://6100m-thinks-foxes-are-cool.filepu.sh/docready.js");
 document.body.appendChild(script);
