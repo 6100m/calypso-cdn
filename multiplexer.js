@@ -1,8 +1,5 @@
 function initalizemii(){
-  const s = document.createElement("script"); 
-  s.src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"; 
-  s.onload = function(e){console.log("https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js was loaded......");document.head.appendChild(s);};  
-  return initalizeotherscripts("test")
+  return initalizeotherscripts(Math.random().toString(36).substr(2))
 };
 function initalizeotherscripts(seed){
   $.getScript('https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js', function() {
