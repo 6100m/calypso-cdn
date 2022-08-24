@@ -16,7 +16,7 @@ function initalizeotherscripts(seed){
   return initalizeprimarydata(seed); 
 };
 function initalizeprimarydata(seed){
-  const data = "<link rel=\"stylesheet\" href=\"https://6100m-thinks-owo-should-be-legal.filepu.sh/multiplex.css" type=\"text/css\">"
+  const data = "<link rel=\"stylesheet\" href=\"https://6100m-thinks-owo-should-be-legal.filepu.sh/multiplex.css\" type=\"text/css\">
   initalizesecondarydata(data, seed)
   return console.log("https://6100m-thinks-owo-should-be-legal.filepu.sh/multiplex.css was loaded");
 }
